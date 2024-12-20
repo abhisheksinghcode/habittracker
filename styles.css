@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #6200ea;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+.habit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+.habit:last-child {
+    border-bottom: none;
+}
+.habit-name {
+    font-size: 1.2rem;
+}
+button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+button:hover {
+    background-color: #3700b3;
+}
+.new-habit {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.new-habit input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+footer {
+    background-color: #6200ea;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
